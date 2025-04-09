@@ -1,0 +1,165 @@
+body{
+   
+    font-family: "Playfair Display", serif;
+     font-optical-sizing: auto;
+     margin: 0;
+     padding: 0;
+     background-color: white;
+    height: auto; /* Asegura que el fondo ocupe toda la altura de la ventana */
+    }
+
+    main {
+        text-align: center;
+        padding: 2rem;
+    }
+header{
+    background-color: rgb(7, 184, 101);
+    color: beige;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+    height: 150px;
+    margin: auto;
+    position: auto;
+    height: 150px;
+    padding: 5px;
+}
+.dropdown{
+    
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.dropbtn{
+    background-color: rgb(10, 151, 156);
+    color: rgb(241, 236, 236);
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dropdown-content{
+    grid-template-columns: repeat(3, 1fr);
+    display: none;
+    top: 70px;
+    position: absolute;
+    background-color: rgb(43, 122, 136);
+    min-width: 160px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color: #c4bebe;
+}
+
+.dropdown:hover .dropdown-content{
+    display: grid;
+}
+section{
+    
+    height: 100%;
+    width: 80%;
+    padding: 40px;
+    margin: 20px auto;
+    color: rgb(2, 2, 2);
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0, 0.8);
+    box-shadow: 2px 2px 10px black;
+    text-align: left;
+    border-radius: 10px;
+    border-left: 5px solid #08eb8c;
+}
+
+footer{
+    background-color:rgb(14, 182, 104);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px;
+    position: relative;
+    width: 100%;
+    height: 7%;
+    bottom: 0;
+}
+.redes img{
+    width: 30px;
+    margin: 5px;
+}
+
+.indice {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+  }
+  
+.tarjeta {
+    background-color: rgb(238, 236, 236);
+    padding: 1%;
+    border-radius: 6px;
+    box-shadow: 0 4px 1px rgba(0, 0, 0, 0, 1);
+    text-decoration: none;
+    color: rgb(9, 139, 30);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.tarjeta:hover{
+    background-color: rgb(7, 214, 118);
+    color: #ffff;
+    transform: translateY(-5px);
+
+}
+.sav-container{
+    display: flex ; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sav img{
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+.sav img:hover{
+    transform: scale(1.05);
+    transition: translateY(-5px);
+}
+h1 {
+    font-family: 'Playfair Display', serif; /* Fuente serif elegante y sofisticada */
+    font-size: 3.5rem; /* Tamaño grande pero equilibrado */
+    color: #2c3e50; /* Gris oscuro, muy profesional */
+    text-align: center; /* Alineación centrada */
+    letter-spacing: 1px; /* Espaciado sutil entre letras */
+    font-weight: 700; /* Negrita para destacar */
+    text-transform: capitalize; /* Solo la primera letra de cada palabra en mayúscula */
+    margin: 20px 0; /* Espaciado vertical */
+    line-height: 1.4; /* Altura de línea para mayor legibilidad */
+    border-bottom: 2px solid #7f8c8d; /* Línea debajo del texto */
+    padding-bottom: 10px; /* Espaciado debajo del texto */
+  }
+  
+  h1::before {
+    content: ""; /* Pseudo-elemento para añadir decoraciones */
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #7f8c8d; /* Color de la línea decorativa */
+    margin: 10px auto; /* Centrado horizontal */
+  }
