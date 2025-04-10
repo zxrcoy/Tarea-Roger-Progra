@@ -6,7 +6,7 @@ body{
      padding: 0;
      background-color: white;
     height: auto; /* Asegura que el fondo ocupe toda la altura de la ventana */
-    
+    overflow-x: hidden;
 }
 header{
     background-color: rgb(7, 184, 101);
@@ -119,3 +119,9 @@ h1 {
     background-color: #7f8c8d; /* Color de la línea decorativa */
     margin: 10px auto; /* Centrado horizontal */
   }
+
+  @media (max-width: 768px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
